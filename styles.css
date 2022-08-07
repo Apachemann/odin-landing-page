@@ -97,6 +97,22 @@ h3 {
 
 /* Inspiring quote */
 
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.thorquote {
+    font-weight: bold;
+    text-align: right;
+}
+
 /* Call to action */
 
 /* Footer */
