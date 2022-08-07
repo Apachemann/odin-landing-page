@@ -115,4 +115,12 @@ h3 {
 
 /* Call to action */
 
+.call {
+    background-color: #3882F6;
+}
+
 /* Footer */
+
+footer {
+    background-color: #1F2937;
+}
