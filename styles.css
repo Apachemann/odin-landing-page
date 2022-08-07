@@ -38,6 +38,10 @@ header > div > p {
     margin-left: 50px;
 }
 
+.left-header > h3 {
+    color: #F9FAF8;
+}
+
 .nav-bar {
     display: flex;
     align-items: center;
@@ -48,6 +52,15 @@ header > div > p {
 
 .subtext {
     padding: 50px;
+}
+
+.subtext button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 15px 32px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
 }
 
 header > div > img {
@@ -61,11 +74,25 @@ header > div > img {
 
 .random-info {
     display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+    text-align: center;
 }
 
-.random-info > img {
-    height: 150px;
-    width: 150px;
+.random-info > p {
+    text-align: center;
+}
+
+.random-wrap > img {
+    height: 50px;
+    width: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
 
 /* Inspiring quote */
