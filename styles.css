@@ -77,6 +77,7 @@ header > div > img {
     justify-content: space-between;
     vertical-align: top;
     text-align: center;
+    padding: 50px;
 }
 
 .random-info > p {
@@ -84,8 +85,8 @@ header > div > img {
 }
 
 .random-wrap > img {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 h3 {
@@ -99,9 +100,10 @@ h3 {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 150px;
 }
 
-.quote > p {
+.thortext {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -109,6 +111,7 @@ h3 {
 }
 
 .thorquote {
+    font-size: 36px;
     font-weight: bold;
     text-align: right;
 }
@@ -117,10 +120,33 @@ h3 {
 
 .call {
     background-color: #3882F6;
+    margin: 100px;
+    padding: 50px;
+}
+
+.call > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.call > button {
+    float: right;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 15px 32px;
+    border: 1px solid #F9FAF8;
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
 }
 
 /* Footer */
 
 footer {
+    color: #E5E7EB;
+    margin: auto;
+    padding: 10px;
     background-color: #1F2937;
+    text-align: center;
 }
